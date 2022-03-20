@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Whatsapp Clone',
       theme: ThemeData.dark().copyWith(
-        backgroundColor: backgroundColor,
+        scaffoldBackgroundColor: backgroundColor,
       ),
       home: const ResponsiveLayout(
         mobileScreenLayout: MobileScreenLayout(),
