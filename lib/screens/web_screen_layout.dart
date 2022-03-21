@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:flutter_whatsapp_clone/widgets/chat_list.dart';
 import 'package:flutter_whatsapp_clone/widgets/contacts_list.dart';
 import 'package:flutter_whatsapp_clone/widgets/web_chat_appbar.dart';
 import 'package:flutter_whatsapp_clone/widgets/web_profile_bar.dart';
@@ -40,6 +41,10 @@ class WebScreenLayout extends StatelessWidget {
                 // chat app bar
                 WebChatAppbar(),
                 // chat list
+                const SizedBox(height: 20),
+                const Expanded(
+                  child: ChatList(),
+                ),
                 // message input box
               ],
             ),
