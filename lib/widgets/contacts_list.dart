@@ -10,15 +10,14 @@ class ContactsList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 8.0),
-      child: Column(
-        children: [
-          Expanded(
-            child: ListView.builder(
-              shrinkWrap: true,
-              itemCount: info.length,
-              itemBuilder: (context, index) {
-                return InkWell(
+        padding: const EdgeInsets.only(top: 8.0),
+        child: ListView.builder(
+          shrinkWrap: true,
+          itemCount: info.length,
+          itemBuilder: (context, index) {
+            return Column(
+              children: [
+                InkWell(
                   onTap: () {},
                   child: Padding(
                     padding: const EdgeInsets.only(
@@ -54,16 +53,14 @@ class ContactsList extends StatelessWidget {
                       ),
                     ),
                   ),
-                );
-              },
-            ),
-          ),
-          Divider(
-            color: dividerColor,
-            indent: 85,
-          )
-        ],
-      ),
-    );
+                ),
+                Divider(
+                  color: dividerColor,
+                  indent: 85,
+                )
+              ],
+            );
+          },
+        ));
   }
 }
