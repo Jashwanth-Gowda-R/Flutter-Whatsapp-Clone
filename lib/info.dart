@@ -4,7 +4,7 @@ const info = [
     'message': 'Hey, how are you doing?',
     'time': '3:53 pm',
     'profilePic':
-        'https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg',
+        'https://pbs.twimg.com/profile_images/1439288610419732484/8vcmpY9X_400x400.jpg',
   },
   {
     'name': 'Rajarajeshwari Matha',
@@ -18,14 +18,14 @@ const info = [
     'message': 'Hello, I want to sleep.',
     'time': '1:03 pm',
     'profilePic':
-        'https://uploads.dailydot.com/2018/10/olli-the-polite-cat.jpg?auto=compress%2Cformat&ixlib=php-3.3.0',
+        'https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg',
   },
   {
     'name': 'Bethne JAshwanth',
     'message': 'Call me, have some work',
     'time': '12:06 pm',
     'profilePic':
-        'https://pbs.twimg.com/profile_images/1419974913260232732/Cy_CUavB.jpg',
+        'https://pbs.twimg.com/profile_images/1439288610419732484/8vcmpY9X_400x400.jpg',
   },
   {
     'name': 'bear Akash',
