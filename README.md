@@ -1,6 +1,8 @@
-# flutter_whatsapp_clone
+# Whatsapp Clone
 
-A new Flutter project.
+Responsive Whatsapp Clone with Flutter project.
+
+View this flutter web site [here](https://fluttershaniwhatsappclone.netlify.app/), if the site don't reload try refresh it twice.
 
 ## Getting Started
 
